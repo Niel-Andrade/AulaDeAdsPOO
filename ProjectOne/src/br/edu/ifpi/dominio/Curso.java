@@ -88,4 +88,13 @@ public class Curso {
         this.professor = professor;
     }
 
+    @Override
+    public String toString() {
+        return "Curso [cargaHoraria=" + cargaHoraria + ", dataDeFim=" + dataDeFim + ", dataDeInicio=" + dataDeInicio
+                + ", modalidade=" + modalidade + ", nivel=" + nivel + ", nome=" + nome + ", professor=" + professor
+                + "]";
+    }
+
+    
+
 }

@@ -37,4 +37,10 @@ public class Aluno {
         this.email = email;
     }
 
+    @Override
+    public String toString() {
+        return ("Nome do aluno: " + nome + ",Data De Nascismento: " + dataDeNascismento + "]");
+    }
+
+    
 }

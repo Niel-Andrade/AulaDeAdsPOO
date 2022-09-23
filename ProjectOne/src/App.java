@@ -1,10 +1,5 @@
 import java.util.Date;
-
 import br.edu.ifpi.dominio.*;
-// import br.edu.ifpi.dominio.Certificado;
-// import br.edu.ifpi.dominio.Curso;
-// import br.edu.ifpi.dominio.Professor;
-
 import java.text.SimpleDateFormat;
 
 public class App {
@@ -24,6 +19,7 @@ public class App {
 
         Certificado certificado = new Certificado(aluno, curso);
 
+        // System.out.println(certificado);
         System.out.format(
                 "O aluno %s, tem %s como professor, fez o curso de %s, \ncom carga horária de: %d Hrs, e teve inicio em  %s e foi concluido em %s.",
                 aluno.getNome(), professor.getNome(), curso.getNome(), curso.getCargaHoraria(),
